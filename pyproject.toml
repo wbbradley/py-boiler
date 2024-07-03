@@ -5,3 +5,4 @@ line-length = 110
 "np" = "import numpy as np"
 "pd" = "import pandas as pd"
 "pprint" = "from pprint import pprint"
+"dataclass" = "from dataclasses import dataclass"
