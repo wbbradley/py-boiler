@@ -2,9 +2,8 @@
 line-length = 100
 
 [tool.autoimport.common_statements]
+"Path" = "from pathlib import Path"
+"dataclass" = "from dataclasses import dataclass"
 "np" = "import numpy as np"
 "pd" = "import pandas as pd"
 "pprint" = "from pprint import pprint"
-"dataclass" = "from dataclasses import dataclass"
-"Path" = "from pathlib import Path"
-"dataclass" = "from dataclasses import dataclass"

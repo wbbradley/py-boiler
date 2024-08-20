@@ -1,5 +1,4 @@
 autoimport
 isort
 ruff
-ruff-lsp
 mypy

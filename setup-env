@@ -14,7 +14,8 @@ if ! [[ -f ".venv/pyvenv.cfg" ]]; then
   python3 -mvenv .venv || die "failed to setup venv"
 fi
 if ! [[ -x ".venv/bin/uv" ]]; then
-  .venv/bin/python -mpip install -U uv || die "failed to setup venv"
+  .venv/bin/python -mpip install -U pip uv || die "failed to setup venv"
 fi
 
-.venv/bin/python -muv pip install -r requirements.txt
+.venv/bin/python -m uv pip install -r requirements.txt
+.venv/bin/python -m pip install -e .
